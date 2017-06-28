@@ -10,6 +10,12 @@ namespace Birthdays
     {
         static void Main(string[] args)
         {
+            var birthdays = new Dictionary<string, string>
+            { 
+                {"Alice", "Apr 1"},
+                { "Bob", "Aug 12"},
+                { "Carol", "Mar 4"}
+            };
         }
     }
 }
