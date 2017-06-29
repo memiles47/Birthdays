@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Birthdays
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            // Setting up dictionary
             var birthdays = new Dictionary<string, string>
             { 
                 {"Alice", "Apr 1"},
@@ -17,5 +15,8 @@ namespace Birthdays
                 { "Carol", "Mar 4"}
             };
         }
+
+        // Set up while loop
+
     }
 }
