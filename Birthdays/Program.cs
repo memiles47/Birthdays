@@ -14,9 +14,15 @@ namespace Birthdays
                 { "Bob", "Aug 12"},
                 { "Carol", "Mar 4"}
             };
+
+            //Setting up while loop
+            while (true)
+            {
+                
+            }
         }
 
-        // Set up while loop
+        
 
     }
 }
