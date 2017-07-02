@@ -18,7 +18,7 @@ namespace Birthdays
             //Setting up while loop
             while (true)
             {
-                
+                //starting now
             }
         }
 
