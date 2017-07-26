@@ -5,6 +5,8 @@ namespace Birthdays
 {
     class Program
     {
+        //Complete conversion from Python
+        //Using Classes
         static void Main()
         {
             // Setting up dictionary
