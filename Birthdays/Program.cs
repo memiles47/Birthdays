@@ -8,6 +8,7 @@ namespace Birthdays
         static void Main()
         {
             // Setting up dictionary
+            // Separate Class
             var birthdays = new Dictionary<string, string>
             {
                 {"Alice", "Apr 1"},
@@ -16,6 +17,7 @@ namespace Birthdays
             };
 
             //Setting up while loop
+            // Possibly new class
             while (true)
             {
                 Console.WriteLine("Enter a name (blank to quit)");
