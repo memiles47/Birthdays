@@ -3,11 +3,10 @@ using System.Collections.Generic;
 
 namespace Birthdays
 {
-    class Program
+    internal static class Program
     {
-        static void Main()
+        private static void Main()
         {
-            // Setting up dictionary
             // Separate Class
             var birthdays = new Dictionary<string, string>
             {
@@ -16,7 +15,6 @@ namespace Birthdays
                 { "Carol", "Mar 4"}
             };
 
-            //Setting up while loop
             // Possibly new class
             while (true)
             {
