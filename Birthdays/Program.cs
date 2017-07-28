@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Birthdays
 {
@@ -8,7 +7,7 @@ namespace Birthdays
         private static void Main()
         {
             var birthday = new BirthdayData();
-            var birthdays = birthday.bDayData;
+            var birthdays = birthday.BDayData;
 
             // Separate Class
 //            var birthdays = new Dictionary<string, string>
