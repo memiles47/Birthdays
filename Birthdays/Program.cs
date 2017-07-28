@@ -7,13 +7,16 @@ namespace Birthdays
     {
         private static void Main()
         {
+            var birthday = new BirthdayData();
+            var birthdays = birthday.bDayData;
+
             // Separate Class
-            var birthdays = new Dictionary<string, string>
-            {
-                {"Alice", "Apr 1"},
-                { "Bob", "Aug 12"},
-                { "Carol", "Mar 4"}
-            };
+//            var birthdays = new Dictionary<string, string>
+//            {
+//                {"Alice", "Apr 1"},
+//                { "Bob", "Aug 12"},
+//                { "Carol", "Mar 4"}
+//            };
 
             // Possibly new class
             while (true)
