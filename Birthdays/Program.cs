@@ -9,6 +9,7 @@ namespace Birthdays
             var birthday = new BirthdayData();
             var birthdays = birthday.BDayData;
 
+            // Create new class for code below this line
             while (true)
             {
                 Console.WriteLine("Enter a name (blank to quit)");
