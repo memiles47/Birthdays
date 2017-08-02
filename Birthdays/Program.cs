@@ -10,7 +10,7 @@ namespace Birthdays
             var bdayQuery = new DataQuery();
             var birthdays = birthday.BDayData;
 
-            bdayQuery.NameCheck(birthdays);
+            DataQuery.NameCheck(birthdays);
 
             Console.WriteLine("\n\nYou quit, press any key to continue");
             Console.ReadLine();

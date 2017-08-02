@@ -5,7 +5,7 @@ namespace Birthdays
 {
     public class DataQuery
     {
-        public void NameCheck(Dictionary<string, string> birthdays)
+        public static void NameCheck(Dictionary<string, string> birthdays)
         {
             while (true)
             {
@@ -22,11 +22,9 @@ namespace Birthdays
                     Console.WriteLine($"\nI do not have birthday information for {name}");
                     Console.Write("What is their birthday? ");
                     var bday = Console.ReadLine();
-                    if (bday != null)
-                    {
-                        if (name != null) birthdays[name] = bday;
-                        Console.WriteLine("\nBirthday database updated\n");
-                    }
+                    if (bday == null) continue;
+                    if (name != null) birthdays[name] = bday;
+                    Console.WriteLine("\nBirthday database updated\n");
                 }
             }
         }
