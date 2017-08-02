@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Birthdays
 {
-    public class DataQuery
+    public static class DataQuery
     {
         public static void NameCheck(Dictionary<string, string> birthdays)
         {
