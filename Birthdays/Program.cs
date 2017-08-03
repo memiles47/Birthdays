@@ -12,7 +12,7 @@ namespace Birthdays
             DataQuery.NameCheck(birthdays);
 
             Console.WriteLine("\n\nYou quit, press any key to continue");
-            var input = Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
